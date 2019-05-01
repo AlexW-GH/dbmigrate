@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>tech.wendt</groupId>
+  <artifactId>dbmigrate</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190501213522</lastUpdated>
+  </versioning>
+</metadata>
