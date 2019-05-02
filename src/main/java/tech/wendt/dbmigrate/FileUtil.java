@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 class FileUtil {
     static String getFileContent(String file) throws IOException {
         URL resource = FileUtil.class.getResource(file);
-        try{
+        try {
             return getFileContent(Paths.get(resource.toURI()));
         } catch (URISyntaxException e) {
             throw new IOException(String.format("Could not read file: %s", file), e);
